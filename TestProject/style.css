@@ -1,0 +1,279 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+  opacity: 0.8;
+  z-index: 100;
+}
+
+nav ul {
+  text-align: center;
+  position: fixed;
+  background-color: #2B2626;
+  width: 100%;
+  z-index: 99;
+}
+nav ul li {
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 55px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  z-index: 98;
+}
+
+nav ul li:hover{
+	background-color: #9F8C8C;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  z-index: 97;
+}
+
+.homepage {
+	top: 0;
+	background-image: url('https://images.unsplash.com/photo-1502261159926-e31d770eb6e1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9efa0661e53144c027f5cea31760a31a&auto=format&fit=crop&w=1481&q=80');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 50vh;
+	padding-top: 50vh;
+	text-align: center;
+}
+
+.aboutus {
+	display: flex;
+	margin: 30px;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.aboutus img {
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+	filter: grayscale(100%);
+}
+
+.aboutus img:hover {
+	filter: grayscale(0%);
+
+}
+
+.aboutus p {
+	padding: 0 20px 35px;
+}
+
+.aboutus button {
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 12px;
+	font-size: 20px;
+}
+
+.coll {
+	text-align: center;
+	border: hidden;
+	margin: 10px;
+	padding: 0px;
+}
+
+#col1 {
+	background-color: #ebebeb;
+}
+
+#col1 button {
+	background-color: #4CAF50;
+	color: white;
+	border: hidden;
+}
+
+#col1 button:hover {
+	background-color: #46a049;
+}
+
+#col1 h2 {
+	padding: 10px;
+	color: #46a049;
+}
+
+#col2 {
+	background-color: #ebebeb;
+}
+
+#col2 button {
+	background-color: #2196F3;
+	color: white;
+	border: hidden;
+}
+
+#col2 button:hover {
+	background-color: #0b7dda;
+}
+
+#col2 h2{
+	padding: 10px;
+	color: blue;
+}
+
+#col3 {
+	background-color: #ebebeb;
+}
+
+#col3 button{
+	background-color: #f44336;
+	color: white;
+	border: hidden;
+}
+
+#col3 button:hover {
+	background-color: #da190b;
+}
+
+#col3 h2 {
+	padding: 10px;
+	color: darkred;
+}
+
+.coltwo {
+	display: flex;
+	flex-direction: row;
+	margin: 30px;
+	align-items: center;
+	text-align: center;
+}
+
+.coltwo img {
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+.coltwo p {
+	padding: 0 20px 35px;
+	text-align: left;
+}
+
+.coltwo h2 {
+	padding-top: 15px;
+	padding-bottom: 35px;
+	color: #666
+}
+
+.twocol {
+	border: hidden;
+	margin: 10px;
+	padding: 0px;
+	align-self: center;
+}
+
+.twocol img {
+	max-width: 100vh;
+}
+
+#two1 {
+	background-color: #ebebeb;
+}
+
+#two2 {
+	background-color: #ebebeb;
+}
+
+.services {
+	background-image: url('https://images.unsplash.com/photo-1465189684280-6a8fa9b19a7a?ixlib=rb-0.3.5&s=d08c271c4ad2a937f54b29b4bf0cc028&auto=format&fit=crop&w=750&q=80');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 40vh;
+	padding-top: 20vh;
+	text-align: center;
+}
+
+.services h1 {
+	color: white;
+}
+
+.services p {
+	color: white;
+	padding: 10px 200px 45px;
+	font-size: 20px;
+}
+
+.fourcol {
+	display: flex;
+	flex-direction: row;
+	margin: 30px;
+	align-items: center;
+	text-align: center;
+}
+
+.fourcol p {
+	padding: 0 25px 35px;
+}
+
+.fourcol img {
+	width: 100%;
+}
+
+#fcol1 {
+	background-color: #ebebeb;
+	margin: 10px;
+}
+
+#fcol2 {
+	background-color: #ebebeb;
+	margin: 10px;
+}
+
+#fcol3 {
+	margin: 10px;
+	background-color: #ebebeb;
+}
+
+#fcol4 {
+	margin: 10px;
+	background-color: #ebebeb;
+}
+
+#fcol4:hover {
+	transform: scale(1.1);
+}
+
+.formcontact {
+	background-image: url(https://images.unsplash.com/photo-1542043026809-6ec421047f1e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4ffe9992d284c86702cc51d9be747d17&auto=format&fit=crop&w=750&q=80);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	background-attachment: fixed;
+	height: 70vh;
+	padding-top: 20vh;
+}
+
+.formcontact h1 {
+	color: white;
+}
+
+.formcontact p {
+	color: black;
+	padding: 10px 300px 20px;
+	border: white solid;
+	background-color: rgba(255, 255, 255, .2)
+}
+form {
+	display: flex;
+}
+
+
+
+
